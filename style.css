@@ -310,9 +310,9 @@ label{
     
 }
 
-/* Animation */
+Animation
 /* main */
-.main{
+/* .main{
     animation-name: main;
     animation-duration: 2s;
     animation-timing-function:linear;
@@ -327,4 +327,4 @@ label{
     to{
         opacity:100%;
     }
-}
+} */
