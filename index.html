@@ -262,7 +262,8 @@
     </section>
 
     <section class="contact">
-      <form data-aos="fade-up" action="" class="form">
+      <form data-aos="fade-up" action="https://api.web3forms.com/submit" method="post" class="form">
+        <input type="hidden" name="access_key" value="44019628-f4fd-47f5-ac7a-29b302114979">
         <label for="name">Name:</label>
         <input type="text" placeholder="Enter your Name" id="name" required />
         <label for="email">Email:</label>
@@ -273,6 +274,7 @@
       </form>
     </section>
 
+    <script src="https://web3forms.com/form.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
       <script>
    AOS.init();
